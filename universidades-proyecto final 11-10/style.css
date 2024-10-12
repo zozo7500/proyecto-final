@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor_mayor{
+    scroll-snap-type: y mandatory;
+}
+section{
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+}
+.pag1{
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+.pag2{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+}
+.introduccion{
+    border: 5px solid rgb(212, 88, 88);
+    color: rgb(255, 248, 248);
+    font-size: 100%;
+    font-family: "Inter", "DM Sans", Arial, sans-serif;
+    text-align: justify;
+}
+.imagenes{
+    margin-top: 10px;
+    display: inline-flex;
+    width: 750px;
+    height: 250px;
+}
+.imagenes img{
+    border-radius: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.img2{
+    padding-right: 10px;
+}
+.info_pag{
+    margin-top: 15px;
+    border: 5px solid rgb(24, 45, 184);
+    color: rgb(255, 248, 248);
+    font-size: 100%;
+    font-family: "Inter", "DM Sans", Arial, sans-serif;
+    text-align: justify;
+    font-style: italic;
+}
+.pag3{
+    display: inline-flex;
+}
+.contenedoranimacion{
+    margin: 10px;
+    width: 640px;
+    height: 300px; 
+}
+.cajita{
+    display: inline;
+}
+.cajita span{
+    margin: 2.5px;
+    border: solid black 2px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    height: 40px;
+    transition: all 0.5s ease;
+    white-space: nowrap; 
+}
+#miCaja1{
+    background-color: blueviolet;
+}
+#miCaja2{
+    background-color: rgb(200, 155, 243);
+}
+#miCaja3{
+    background-color: rgb(27, 7, 46);
+}
+#miCaja4{
+    background-color: rgb(56, 43, 68);
+}
+#miCaja5{
+    background-color: rgb(46, 0, 90);
+}
+#miCaja6{
+    background-color: rgb(175, 89, 255);
+}
+#miCaja7{
+    background-color:rgb(0, 0, 255);
+}
+#miCaja8{
+    background-color:rgb(111, 111, 196);
+}
+#miCaja9{
+    background-color:rgb(5, 5, 69);
+}
+#miCaja10{
+    background-color:rgb(25, 97, 241);
+}
+#miCaja11{
+    background-color:rgb(0, 43, 96);
+}
+#miCaja12{
+    background-color:rgb(84, 125, 246);
+}
+#miCaja13{
+    background-color:rgb(255, 0, 225);
+}
+#miCaja14{
+    background-color:rgb(109, 53, 103);
+}
+#miCaja15{
+    background-color:rgb(144, 103, 139);
+}
+#miCaja16{
+    background-color:rgb(99, 1, 87);
+}
+#miCaja17{
+    background-color:rgb(62, 5, 56);
+}
+#miCaja18{
+    background-color:rgb(255, 0, 225);
+}
+#miCaja19{
+    background-color: darkgreen;
+}
+#miCaja20{
+    background-color: rgb(19, 161, 19);
+}
+#miCaja21{
+    background-color: rgb(92, 138, 92);
+}
+#miCaja22{
+    background-color: rgb(2, 79, 2);
+}
+#miCaja23{
+    background-color: rgb(113, 206, 113);
+}
+#miCaja24{
+    background-color: rgb(44, 82, 44);
+}
+#miCaja25{
+    background-color: goldenrod;
+}
+#miCaja26{
+    background-color: rgb(120, 99, 46);
+}
+#miCaja27{
+    background-color: rgb(147, 105, 0);
+}
+#miCaja28{
+    background-color: rgb(218, 187, 32);
+}
+#miCaja29{
+    background-color: rgb(151, 63, 0);
+}
+#miCaja30{
+    background-color: rgb(218, 63, 32);
+}
+#miCaja31{
+    background-color: rgb(59, 46, 16);
+}
+#miCaja32{
+    background-color: rgb(218, 32, 32);
+}
+#miCaja33{
+    background-color: rgb(104, 8, 8);
+}
+#miCaja34{
+    background-color: rgb(143, 65, 179);
+}
+#miCaja35{
+    background-color: rgb(218, 32, 141);
+}
+#miCaja36{
+    background-color: rgb(95, 1, 48);
+}
+#miCaja37{
+    background-color: rgb(50, 30, 8);
+}
+#miCaja38{
+    background-color: rgb(17, 43, 116);
+}
+#miCaja39{
+    background-color: rgb(32, 156, 218);
+}
+#miCaja40{
+    background-color: rgb(1, 61, 85);
+}
+#miCaja41{
+    background-color: rgb(49, 39, 66);
+}
+#miCaja42{
+    background-color: rgb(102, 66, 98);
+}
+#miCaja43{
+    background-color: rgb(255, 0, 242);
+}
+#miCaja44{
+    background-color: rgb(28, 0, 84);
+}
+.pag4 {
+    padding: 10px;
+    box-sizing: border-box;
+    background: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contenedor2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contenedor2 div {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.contenedor2 div:hover {
+    transform: translateY(-10px);
+}
+
+.pag4 h2 {
+    font-size: 2em;
+    color: #420093;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #67499b;
+    padding-bottom: 10px;
+}
+
+.pag4 p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #223b3c;
+}
+
+.pag4 ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.pag4 ul li {
+    font-size: 1.1em;
+    color: #2c3e50;
+    margin: 5px 0;
+    position: relative;
+}
+
+.pag4 ul li:before {
+    content: "✔";
+    color: #e74c3c;
+    position: absolute;
+    left: -20px;
+    font-size: 1.3em;
+}
+
+.pag4 strong {
+    color: #34495e;
+}
+
+@media (max-width: 1024px) {
+    .contenedor2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor2 {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+    }
+}
+
+.pag4-1{
+    justify-content: center;
+    place-items: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#intro-ucalp{
+    background-color: #420093;
+}
+#intro-unlp{
+    background-color: #0086fc;
+}
+.footer {
+    background-color: #ffebee;
+    color: #d81b60; 
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', sans-serif; 
+}
+
+.footer-text {
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+.footer {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
